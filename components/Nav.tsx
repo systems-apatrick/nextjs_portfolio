@@ -1,3 +1,4 @@
+import { Bars3CenterLeftIcon } from '@heroicons/react/16/solid'
 import React from 'react'
 
 const Nav = () => {
@@ -14,7 +15,7 @@ const Nav = () => {
           <li> <a className='nav__link' href="#">Portafolio</a></li>
           <li> <a className='nav__link' href="#">Contacto</a></li>
         </ul>
-        <Bar3CenterLeftIcon></Bar3CenterLeftIcon>
+        <Bars3CenterLeftIcon className='w-[2.3rem] md:hidden h-[2.3rem] text-white rotate-180'></Bars3CenterLeftIcon>
       </div>
     </div>
   )
