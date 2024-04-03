@@ -11,4 +11,7 @@
     after:scale-x-0 after:hover:scale-x-100 after:transition 
     after:duration-300 after:origin-right 
     }
+    .custom-bg{
+    background-image: linear-gradient(to right,rgba(0,0,0,0.836), rgba(0,0,0,0.811)),url("/images/bg.jpg");
+    }
 }

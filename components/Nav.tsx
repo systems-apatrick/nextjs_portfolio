@@ -22,10 +22,10 @@ const Nav = ({ openNav }: Props) => {
 		window.addEventListener("scroll", handler);
 	}, []);
 
-  const stickyStyle = navSticky ? "":""
+	const stickyStyle = navSticky ? "bg-[#212428] shadow-gray-900 shadow-sm" : "";
 
 	return (
-		<div className={`fixed w-[100%] ${stickyStyle} z-[1000] bg-gray-800`}>
+		<div className={`fixed w-[100%] ${stickyStyle} transition-all duration-300 z-[1000]`}>
 			<div className='flex items-center h-[12vh] justify-between w-[80%] mx-auto'>
 				<div className='font-log text-white text-[18px]'>
 					<span className='text-[30px] md:text-[40px] text-blue-400'>DEV</span>
@@ -33,31 +33,26 @@ const Nav = ({ openNav }: Props) => {
 				</div>
 				<ul className='md:flex hidden items-center space-x-10'>
 					<li>
-						{" "}
 						<a className='nav__link' href='#'>
 							Inicio
 						</a>
 					</li>
 					<li>
-						{" "}
 						<a className='nav__link' href='#'>
 							Acerca de mí
 						</a>
 					</li>
 					<li>
-						{" "}
 						<a className='nav__link' href='#'>
 							Servicios
 						</a>
 					</li>
 					<li>
-						{" "}
 						<a className='nav__link' href='#'>
 							Portafolio
 						</a>
 					</li>
 					<li>
-						{" "}
 						<a className='nav__link' href='#'>
 							Contacto
 						</a>
