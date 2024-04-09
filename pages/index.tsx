@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 import NavMobile from "@/components/NavMobile";
@@ -9,10 +10,11 @@ const HomePage = () => {
   const closeNavHandler =() => setshowNav(false);
 
   return (
-    <div className="overflow-hidden h-[2000px]">
+    <div className="overflow-hidden">
       <NavMobile showNav={showNav} closeNav={closeNavHandler}/>
       <Nav openNav={showNavHandler} />
       <Hero/>
+      <AboutMe/>
     </div>
   );
 };
