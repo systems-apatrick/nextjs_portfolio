@@ -2,6 +2,7 @@ import AboutMe from "@/components/AboutMe";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 import NavMobile from "@/components/NavMobile";
+import Price from "@/components/Price";
 import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
@@ -21,6 +22,7 @@ const HomePage = () => {
       <Services/>
       <Skills/>
       <Projects/>
+      <Price/>
     </div>
   );
 };
