@@ -1,9 +1,11 @@
 import AboutMe from "@/components/AboutMe";
+import Blog from "@/components/Blog";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 import NavMobile from "@/components/NavMobile";
 import Price from "@/components/Price";
 import Projects from "@/components/Projects";
+import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import React, { useState } from "react";
@@ -23,6 +25,8 @@ const HomePage = () => {
       <Skills/>
       <Projects/>
       <Price/>
+      <Reviews/>
+      <Blog/>
     </div>
   );
 };
