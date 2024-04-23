@@ -19,6 +19,30 @@ const Blog = () => {
 						image='/images/b1.jpg'
 					/>
 				</div>
+				<div>
+					<BlogCard
+						title='docker in mode rootless'
+						comment='4'
+						date='24 january 2023'
+						image='/images/b1.jpg'
+					/>
+				</div>
+				<div>
+					<BlogCard
+						title='docker in mode rootless'
+						comment='4'
+						date='24 january 2023'
+						image='/images/b1.jpg'
+					/>
+				</div>
+				<div>
+					<BlogCard
+						title='docker in mode rootless'
+						comment='4'
+						date='24 january 2023'
+						image='/images/b1.jpg'
+					/>
+				</div>
 			</div>
 		</div>
 	);
