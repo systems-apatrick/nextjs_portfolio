@@ -9,19 +9,23 @@ const Hero = () => {
 				<div className='grid grid-cols-1 md:grid-cols-2 gap-[3rem] items-center'>
 					<div>
 						<h1 className='text-[#c4cfde] mb-[1.3rem]'>
-							BIENVENIDO A MI MUNDO
+						¡BIENVENIDO A MI MUNDO!
 						</h1>
 						<div>
 							<h1 className='x1:text-[50px] lg:text-[40px] sm:text-[35px] text-[25px] font-semibold leading-[2.6rem] text-white'>
-								Hola, soy <span className='text-blue-300'>PATRICK</span>
+							¡Hola! Soy <span className='text-blue-500'>Patricio Fajardo</span>
 							</h1>
 							<TypeWriteEffect />
 						</div>
 						<p className='mt-[1.2rem] text-[15px] md:text-[17px] text-[#c4cfde]'>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
-							similique in sint nemo, error quos saepe soluta est fugit delectus
-							ipsum. Deserunt quidem earum dolore voluptatibus laudantium fugit
-							sunt repudiandae.
+							Soy un persona apasionada de la tecnología,
+							especializado en desarrollo de sistemas web y aplicaciones
+							móviles. Con formación como Ingeniero de Sistemas de la
+							Universidad de Cuenca, he liderado proyectos reales y académicos
+							durante mi trayectoria universitaria. Manteniéndome al día con las
+							últimas tendencias tecnológicas, mi objetivo es ayudar a personas
+							y empresas a materializar sus ideas innovadoras con las mejores
+							soluciones tecnológicas disponibles.
 						</p>
 						<div className='mt-[2rem] flex items-center space-x-6'>
 							<button
@@ -45,11 +49,11 @@ const Hero = () => {
 					</div>
 					<div className='hidden md:block'>
 						<Image
-							src='/images/hero.png'
+							src='/images/perfilPatrick.jfif'
 							alt='hero'
-							width={600}
-							height={600}
-							className="object-contain"
+							width={300}
+							height={300}
+							className='object-contain'
 						></Image>
 					</div>
 				</div>

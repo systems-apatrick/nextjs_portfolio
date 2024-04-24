@@ -10,7 +10,7 @@ const TypeWriteEffect = () => {
 				1000, // wait 1s before replacing "Mice" with "Hamsters"
 				"Desarrollador Movil",
 				1000,
-				"Ciencias de datos",
+				"Cientifico de datos",
 				1000,			
 			]}
 			wrapper='span'

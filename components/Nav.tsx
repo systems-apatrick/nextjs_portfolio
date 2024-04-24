@@ -1,4 +1,5 @@
 import { Bars3CenterLeftIcon } from "@heroicons/react/16/solid";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Interface } from "readline";
 
@@ -25,11 +26,18 @@ const Nav = ({ openNav }: Props) => {
 	const stickyStyle = navSticky ? "bg-[#212428] shadow-gray-900 shadow-sm" : "";
 
 	return (
-		<div className={`fixed w-[100%] ${stickyStyle} transition-all duration-300 z-[1000]`}>
+		<div
+			className={`fixed w-[100%] ${stickyStyle} transition-all duration-300 z-[1000]`}
+		>
 			<div className='flex items-center h-[12vh] justify-between w-[80%] mx-auto'>
 				<div className='font-log text-white text-[18px]'>
-					<span className='text-[30px] md:text-[40px] text-blue-400'>DEV</span>
-					PATRICK
+					<Image
+						className="'text-[30px] md:text-[40px]"
+						src={"/images/apatricklogo.png"}
+						alt='logo'
+						width={250}
+						height={100}
+					/>
 				</div>
 				<ul className='md:flex hidden items-center space-x-10'>
 					<li>
